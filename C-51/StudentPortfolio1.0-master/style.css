@@ -1,0 +1,46 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(43, 40, 40);
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    font-size: 30px; /* size of the text */
+    font-family: 'Courier New', Courier, monospace; /* police of the text (style) */
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.item{
+    margin-left: 20px;
+}
+
+body{
+    background-color: rgb(218, 224, 228);
+    margin: 50px;     /* Distance between the borders of the window and the content*/
+}
